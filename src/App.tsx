@@ -1,7 +1,11 @@
+import SideBar from "./components/SideBar";
+import MainContent from "./components/MainContent";
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello React</h1>
+    <div className="bg-[#100E1D] flex flex-col lg:flex-row">
+      <SideBar />
+      <MainContent />
     </div>
   );
 };
